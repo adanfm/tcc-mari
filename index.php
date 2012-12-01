@@ -21,12 +21,7 @@
 		<aside class="span2">video e novidade</aside>
 		<article class="span8">banner</article>
 		<footer class="span10">carousel</footer>
-	</section>
-
-	<footer class="row">
-		<div class="span5">form</div>
-		<div class="span5">maps</div>
-	</footer>
+    </section>
 </div>
 
 <?php include 'includes/footer.php'; ?>

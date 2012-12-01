@@ -1,0 +1,57 @@
+/* 
+    Document   : adan
+    Created on : 01/12/2012, 15:37:54
+    Author     : Adan Felipe Medeiros<adan.grg@gmail.com>
+*/
+.textarea-footer { 
+    resize: none;
+    height: 120px;
+}
+
+.footer
+{
+    background: #4C332C;
+    color: #fff;
+    padding: 10px 0px 50px;
+}
+
+.footer input,textarea
+{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.submit-form{
+    border:none;
+    color: #fff;
+    background: none;
+    font-weight: bold;
+    margin-top: 5px;
+    float:right;
+    
+}
+
+.contato{
+    margin-top: -10px;
+}
+.contato-info{
+    margin-bottom: 14px;
+    margin-top: -25px;
+}
+.contato-info p{
+    margin-bottom:5px;
+}
+
+.contato p span{
+    font-weight: bold;
+}
+.destaque{
+    color:#FFDED9;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px #fff; 
+}
+.contato-maps img{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
