@@ -1,3 +1,82 @@
-menu li {
-    display: inline-block;
+/* estilos primários */
+
+body {
+    background: url(../img/bg/bolinhas.jpg);
+    background-size: cover;
+}
+
+a:hover {
+    transition:all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+}
+
+/* header */
+
+.header {
+    background: url(../img/bg/bg-header.png);
+    background-size: cover;
+    position: relative;
+    height: 55px;
+    margin-top: 200px;
+}
+
+    .encomendas {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        margin-left: -100px;
+        bottom: 30px;
+    }
+
+    .siga-nos  {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 80px;
+    }
+
+        .siga-nos img {
+            float: left;
+        }
+
+/* menu */
+
+    menu {
+        background: url(../img/bg/bg-menu.png) no-repeat;
+        width: 940px;
+        height: 93px;
+    }
+
+        menu ul {
+            padding: 22px 0 0 70px;
+        }
+
+            menu li {
+                display: inline-block;
+                padding-right: 47px;
+            }
+
+                menu a {
+                    color: #fff;
+                    font-size: 130%;
+                }
+
+                    menu a:hover {
+                        text-decoration: none;
+                        color: #fff;
+                        border-bottom: 1px dashed #fff;
+                    }
+
+/*  */
+
+/* misc */
+
+.no-margin {
+    margin: 0;
 }

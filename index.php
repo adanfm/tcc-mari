@@ -2,26 +2,68 @@
 
 <div class="container">
 	<header class="row">
-		<div class="span3">encomendas</div>
-		<div class="span4">logo</div>
-		<div class="span3">siga-nos</div>
-		<menu>
-			<ul>
-				<li><a href="">1</a></li>
-				<li><a href="">2</a></li>
-				<li><a href="">3</a></li>
-				<li><a href="">4</a></li>
-				<li><a href="">5</a></li>
-				<li><a href="">6</a></li>
-			</ul>
-		</menu>
+		<div class="span10 offset1 header">
+			<div class="span5 encomendas">
+				<img src="img/encomendas.png" alt="Encomendas">
+			</div>
+			<div class="logo">
+				<img src="img/logo.png" alt="Sabor di Amore">
+			</div>
+			<div class="siga-nos">
+				<img src="img/siga-nos.png" alt="Siga-nos">
+				<a href="#">
+					<img src="img/twitter.png" alt="Twitter">
+				</a>
+				<a href="#">
+					<img src="img/facebook.png" alt="Facebook">
+				</a>
+			</div>
+		</div>
+		<div class="span12">
+			<menu class="no-margin">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Produtos</a></li>
+					<li><a href="">Serviços</a></li>
+					<li style="padding-right: 56px;"><a href="">Galeria</a></li>
+					<li><a href="">Quem somos</a></li>
+					<li><a href="">Contato</a></li>
+				</ul>
+			</menu>
+		</div>
 	</header>
-
 	<section class="row">
+<<<<<<< HEAD
 		<aside class="span2">video e novidade</aside>
 		<article class="span8">banner</article>
 		<footer class="span10">carousel</footer>
     </section>
+=======
+		<aside class="span3 offset1">
+			<img src="img/titulo-videos.jpg" alt="Título Vídeos">
+			<div class="video">
+				<iframe width="205" height="205" src="http://www.youtube.com/embed/_qvMafWTUig" frameborder="0" allowfullscreen></iframe>	
+			</div>
+			
+		</aside>
+		<article class="span8">
+			<img src="img/banner.jpg" alt="Banner">
+		</article>
+	</section>
+</div>
+
+<div class="carousel">
+	<div class="container">
+		<div class="span10 offset1">carousel</div>
+	</div>
+</div>
+	
+
+	<footer class="row">
+		<div class="span5">form</div>
+		<div class="span5">maps</div>
+	</footer>
+>>>>>>> 197d754a97e53f8be0531de4a91f2dcdf2c71ba8
 </div>
 
 <?php include 'includes/footer.php'; ?>
