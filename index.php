@@ -32,9 +32,17 @@
 			</menu>
 		</div>
 	</header>
-	<section class="row offset1">
-		<aside class="span2">video e novidade</aside>
-		<article class="span8">banner</article>
+	<section class="row">
+		<aside class="span3 offset1">
+			<img src="img/titulo-videos.jpg" alt="Título Vídeos">
+			<div class="video">
+				<iframe width="205" height="205" src="http://www.youtube.com/embed/_qvMafWTUig" frameborder="0" allowfullscreen></iframe>	
+			</div>
+			
+		</aside>
+		<article class="span8">
+			<img src="img/banner.jpg" alt="Banner">
+		</article>
 	</section>
 </div>
 
