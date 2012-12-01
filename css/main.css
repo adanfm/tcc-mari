@@ -3,7 +3,13 @@
 body {
     background: url(../img/bg/bolinhas.jpg);
     background-size: cover;
-    padding-top: 50px;
+}
+
+a:hover {
+    transition:all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
 }
 
 /* header */
@@ -11,12 +17,14 @@ body {
 .header {
     background: url(../img/bg/bg-header.png);
     background-size: cover;
-    border: 1px solid red;
     position: relative;
+    height: 55px;
+    margin-top: 200px;
 }
 
     .encomendas {
-        margin: 120px 0 0 0;
+        position: absolute;
+        bottom: 0;
     }
 
     .logo {
@@ -28,15 +36,44 @@ body {
 
     .siga-nos  {
         position: absolute;
-        
+        bottom: 0;
+        right: 0;
+        width: 80px;
     }
+
+        .siga-nos img {
+            float: left;
+        }
 
 /* menu */
-    menu li {
-        display: inline-block;
+
+    menu {
+        background: url(../img/bg/bg-menu.png) no-repeat;
+        width: 940px;
+        height: 93px;
     }
 
+        menu ul {
+            padding: 22px 0 0 70px;
+        }
 
+            menu li {
+                display: inline-block;
+                padding-right: 47px;
+            }
+
+                menu a {
+                    color: #fff;
+                    font-size: 130%;
+                }
+
+                    menu a:hover {
+                        text-decoration: none;
+                        color: #fff;
+                        border-bottom: 1px dashed #fff;
+                    }
+
+/*  */
 
 /* misc */
 

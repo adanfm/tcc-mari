@@ -19,26 +19,28 @@
 				</a>
 			</div>
 		</div>
-		<menu class="span10">
-			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">Produtos</a></li>
-				<li><a href="">Serviços</a></li>
-				<li><a href="">Galeria</a></li>
-				<li><a href="">Quem somos</a></li>
-				<li><a href="">Contato</a></li>
-			</ul>
-		</menu>
+		<div class="span12">
+			<menu class="no-margin">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Produtos</a></li>
+					<li><a href="">Serviços</a></li>
+					<li style="padding-right: 56px;"><a href="">Galeria</a></li>
+					<li><a href="">Quem somos</a></li>
+					<li><a href="">Contato</a></li>
+				</ul>
+			</menu>
+		</div>
 	</header>
+	<section class="row offset1">
+		<aside class="span2">video e novidade</aside>
+		<article class="span8">banner</article>
+	</section>
 </div>
 
 <div class="carousel">
 	<div class="container">
-		<section class="row offset1">
-			<aside class="span2">video e novidade</aside>
-			<article class="span8">banner</article>
-			<footer class="span10">carousel</footer>
-		</section>
+		<div class="span10 offset1">carousel</div>
 	</div>
 </div>
 	
