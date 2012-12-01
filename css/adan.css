@@ -3,6 +3,13 @@
     Created on : 01/12/2012, 15:37:54
     Author     : Adan Felipe Medeiros<adan.grg@gmail.com>
 */
+
+input,textarea
+{
+    border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+}
 .textarea-footer { 
     resize: none;
     height: 120px;
@@ -12,20 +19,14 @@
 {
     background: #4C332C;
     color: #fff;
-    padding: 10px 0px 50px;
-}
-
-.footer input,textarea
-{
-    border-radius: 10px;
-    -moz-border-radius: 10px;
+    padding: 10px 0px 50px 110px;
+    
 }
 
 .submit-form{
     border:none;
     color: #fff;
     background: none;
-    font-weight: bold;
     margin-top: 5px;
     float:right;
     
@@ -33,6 +34,7 @@
 
 .contato{
     margin-top: -10px;
+    margin-left: 40px;
 }
 .contato-info{
     margin-bottom: 14px;
@@ -54,4 +56,67 @@
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
+}
+
+/******************************************************************************/
+
+.section-contato {
+    padding-top: 40px;
+
+    color:#4A4240;
+
+    
+}
+.form-contato{
+    padding-left: 50px;
+}
+
+.form-contato-info p
+{
+    margin-bottom: 0px;
+}
+.section-contato P span
+{
+    font-weight: bold;
+}
+
+.form-contato-submit{
+    border:none;
+    color: #4A4240;
+    background: none;
+    margin-top: 5px;
+    float:right;
+}
+.form-contato-maps{
+    background-image: url('http://maps.googleapis.com/maps/api/staticmap?center=R.+Corup%C3%A1,+138+-+Anita+Garibaldi,+Joinville+-+Santa+Catarina,+89203-620,+Rep%C3%BAblica+Federativa+do+Brasil&zoom=16&size=380x360&maptype=roadmap&markers=color:red|label:A|-26.313459,-48.856823&sensor=false');
+    background-repeat: no-repeat;
+    border:2px solid #D7CEC5;
+    height: 330px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 1px 1px 60px #D7CEC5;
+}
+.section-contato button
+{
+    border:none;
+    color: #4A4240;
+    background: none;
+    margin-top: 5px;
+    float:right;
+}
+/******************************************************************************/
+.cadastro-email{
+    padding-top: 12px;
+}
+.cadastro-email span
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.input-indicacao{
+    width: 319px;
+}
+.indicacao{
+    margin-top: 40px;
 }
