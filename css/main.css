@@ -1,3 +1,45 @@
-menu li {
-    display: inline-block;
+/* estilos primários */
+
+body {
+    background: url(../img/bg/bolinhas.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+
+/* header */
+
+.header {
+    background: url(../img/bg/bg-header.png);
+    background-size: cover;
+    border: 1px solid red;
+    position: relative;
+}
+
+    .encomendas {
+        margin: 120px 0 0 0;
+    }
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        margin-left: -100px;
+        bottom: 30px;
+    }
+
+    .siga-nos  {
+        position: absolute;
+        
+    }
+
+/* menu */
+    menu li {
+        display: inline-block;
+    }
+
+
+
+/* misc */
+
+.no-margin {
+    margin: 0;
 }

@@ -2,26 +2,46 @@
 
 <div class="container">
 	<header class="row">
-		<div class="span3">encomendas</div>
-		<div class="span4">logo</div>
-		<div class="span3">siga-nos</div>
-		<menu>
+		<div class="span10 offset1 header">
+			<div class="span5 encomendas">
+				<img src="img/encomendas.png" alt="Encomendas">
+			</div>
+			<div class="logo">
+				<img src="img/logo.png" alt="Sabor di Amore">
+			</div>
+			<div class="siga-nos">
+				<img src="img/siga-nos.png" alt="Siga-nos">
+				<a href="#">
+					<img src="img/twitter.png" alt="Twitter">
+				</a>
+				<a href="#">
+					<img src="img/facebook.png" alt="Facebook">
+				</a>
+			</div>
+		</div>
+		<menu class="span10">
 			<ul>
-				<li><a href="">1</a></li>
-				<li><a href="">2</a></li>
-				<li><a href="">3</a></li>
-				<li><a href="">4</a></li>
-				<li><a href="">5</a></li>
-				<li><a href="">6</a></li>
+				<li><a href="">Home</a></li>
+				<li><a href="">Produtos</a></li>
+				<li><a href="">Serviços</a></li>
+				<li><a href="">Galeria</a></li>
+				<li><a href="">Quem somos</a></li>
+				<li><a href="">Contato</a></li>
 			</ul>
 		</menu>
 	</header>
+</div>
 
-	<section class="row">
-		<aside class="span2">video e novidade</aside>
-		<article class="span8">banner</article>
-		<footer class="span10">carousel</footer>
-	</section>
+<div class="carousel">
+	<div class="container">
+		<section class="row offset1">
+			<aside class="span2">video e novidade</aside>
+			<article class="span8">banner</article>
+			<footer class="span10">carousel</footer>
+		</section>
+	</div>
+</div>
+	
 
 	<footer class="row">
 		<div class="span5">form</div>
