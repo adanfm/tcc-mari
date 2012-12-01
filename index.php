@@ -33,6 +33,12 @@
 		</div>
 	</header>
 	<section class="row">
+<<<<<<< HEAD
+		<aside class="span2">video e novidade</aside>
+		<article class="span8">banner</article>
+		<footer class="span10">carousel</footer>
+    </section>
+=======
 		<aside class="span3 offset1">
 			<img src="img/titulo-videos.jpg" alt="Título Vídeos">
 			<div class="video">
@@ -57,6 +63,7 @@
 		<div class="span5">form</div>
 		<div class="span5">maps</div>
 	</footer>
+>>>>>>> 197d754a97e53f8be0531de4a91f2dcdf2c71ba8
 </div>
 
 <?php include 'includes/footer.php'; ?>
