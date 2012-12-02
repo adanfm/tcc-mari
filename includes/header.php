@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/adan.css" />
+        <link rel="stylesheet" type="text/css" href="js/jcarousel/skins/tango/skin.css" />
+    
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body>

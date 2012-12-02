@@ -48,7 +48,26 @@
 
     <div class="carousel">
         <div class="container">
-            <div class="span10 offset1">carousel</div>
+            <div class="span10 offset1">
+
+            	<!-- Titulo Produtos e Serviços -->
+				<div class="carousel-titulo"><img src="img/carousel/titulo-carousel.jpg"></div>
+				
+				<!-- Imagens carousel -->
+				<div id="mycarousel" class="jcarousel-skin-tango"> 
+					<ul>
+						<li><img src="img/carousel/1.jpg"></li>
+						<li><img src="img/carousel/2.jpg"></li>
+						<li><img src="img/carousel/3.jpg"></li>
+						<li><img src="img/carousel/4.jpg"></li>
+						<li><img src="img/carousel/1.jpg"></li>
+						<li><img src="img/carousel/2.jpg"></li>
+						<li><img src="img/carousel/3.jpg"></li>
+						<li><img src="img/carousel/4.jpg"></li>
+					</ul>
+				</div>
+					
+            </div>
         </div>
     </div>
 </div>
